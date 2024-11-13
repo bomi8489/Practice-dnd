@@ -1,7 +1,7 @@
 'use client'
 
 import { ItemTypes } from '@/types/kanban'
-import React, { useEffect, useState } from 'react'
+import { useState } from 'react'
 import DragDrop from './DragDrop'
 
 export default function KanbanBoard() {

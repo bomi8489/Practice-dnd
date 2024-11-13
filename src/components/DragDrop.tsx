@@ -1,4 +1,4 @@
-import React, { Dispatch, SetStateAction } from 'react'
+import { Dispatch, SetStateAction } from 'react'
 import { DragDropContext, Draggable, Droppable, DropResult } from "@hello-pangea/dnd";
 import { ItemStatus, ItemTypes } from '@/types/kanban';
 import { cn } from '@/utils/cn';
